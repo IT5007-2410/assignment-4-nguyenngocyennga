@@ -35,7 +35,6 @@ export default class App extends React.Component
   {
     return(
     <>
-      <Text>Issue Tracker</Text>
       <IssueList/>
     </>);
 

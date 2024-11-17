@@ -1,3 +1,9 @@
+// Warning: Failed prop type: Invalid prop textStyle of type array supplied to Cell, expected object
+// ☝️ Hi TA, when you launch app you might encounter this pop-up warning, it would require some tweaks in other files but I think for this project it's ok. 
+// As I have searched a bit, it's an ongoing problem I think...:
+// > https://stackoverflow.com/questions/72255682/warning-failed-prop-type-invalid-prop-textstyle-of-type-array-supplied-to
+// > https://github.com/dohooo/react-native-table-component/issues/145
+
 import React, { useState } from 'react';
 import { Table, Row } from 'react-native-table-component';
 import {
